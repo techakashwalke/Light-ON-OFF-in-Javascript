@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Righteous', cursive;
+            background: #FF94CC;
+            overflow: hidden;
+        }
+        
+        .main-heading {
+            width: 100wh;
+            height: 100vh;
+            text-align: center;
+            margin-top: 10%;
+        }
+        
+        .btn {
+            margin: 50px;
+            padding: 20px 20px;
+            border-radius: 10px;
+            background-color: #BA135D;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            letter-spacing: 1.5px;
+        }
+        
+        .btn:hover {
+            background-color: #F4CCA4;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-heading">
+        <h1 class="center">Can you Turn-ON OR Turn-OFF Light?</h1>
+        <br>
+        <button class="btn" onclick="document.getElementById('myImage').src='image/turn-on.png'">Turn On the Light</button>
+        <img src="image/turn-off.png" alt="lightofpic" id="myImage" width="200px" height="200px">
+
+        <button class="btn" onclick="document.getElementById('myImage').src='image/turn-off.png'">Turn of the Light</button>
+    </div>
+</body>
+
+</html>
